@@ -1,4 +1,4 @@
-# Task/Notes Demo API
+# task-api
 
 A lightweight, containerized REST API for managing tasks and notes.
 
