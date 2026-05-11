@@ -14,6 +14,9 @@ FROM node:20-alpine
 
 WORKDIR /app
 
+# Install curl + jq
+RUN apk add --no-cache curl jq
+
 COPY package*.json ./
 RUN npm install --omit=dev
 
